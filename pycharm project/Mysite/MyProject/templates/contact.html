@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %} Contact {% endblock %}
+
+{% block content %}
+
+<h1>This is our contact page </h1>
+
+{{sometext}}
+
+{{mylist}}
+
+{% for list in mylist %}
+
+<ul>
+
+    <li>{{list}}</li>
+
+</ul>
+
+{% endfor %}
+
+{% endblock %}

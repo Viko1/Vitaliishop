@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %} News Details {% endblock %}
+
+{% block content %}
+
+<h1>This is our News Details page </h1>
+
+<h1>{{object.author}}</h1>
+<h2>{{object.title}}</h2>
+<p>{{object.description}}</p>
+
+{% endblock %}
