@@ -18,4 +18,4 @@ from .models import *
 
 
 
-admin.site.register(Subscriber, SubscriberAdmin)
+#admin.site.register(Subscriber, SubscriberAdmin)
