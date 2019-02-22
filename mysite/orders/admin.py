@@ -1,21 +1,29 @@
 from django.contrib import admin
 from .models import *
-# Register your models here.
-
-#test 111222333
-# class SubscriberAdmin(admin.ModelAdmin):
-#     list_display = ["name", "email"]
-#     list_display = [field.name for field in Subscriber._meta.fields]
-#     exclude = []
-#     fields = ["email"]
-#     list_filter = ["name",]
-#     search_fields = ["name", "email"]
-#
-#
-#
-#     class Meta:
-#         model = Subscriber
 
 
+class StatusAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in Status._meta.fields]
 
-#admin.site.register(Subscriber, SubscriberAdmin)
+    class Meta:
+        model = Status
+
+admin.site.register(Status, StatusAdmin)
+
+class OrderAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in Order._meta.fields]
+
+    class Meta:
+        model = Order
+
+admin.site.register(Order, OrderAdmin)
+
+
+class ProductInOrderAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in ProductInOrder._meta.fields]
+
+    class Meta:
+        model = ProductInOrder
+
+admin.site.register(ProductInOrder, ProductInOrderAdmin)
+
