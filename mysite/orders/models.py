@@ -1,5 +1,6 @@
 from django.db import models
 from products.models import Product
+from django.db.models.signals import post_save
 
 
 
@@ -59,24 +60,23 @@ class ProductInOrder(models.Model):
         verbose_name = 'Product'
         verbose_name_plural = 'Products in order'
 
-
     def save(self, *args, **kwargs):
+
         price_per_item = self.product.price
         self.price_per_item = price_per_item
         self.total_price = self.nmb * self.price_per_item
-
-        order = self.order
-        all_products_in_order = ProductInOrder.objects.filter(order=order, is_active=True)
-
-        order_total_price = 0
-        for item in all_products_in_order:
-            order_total_price += item.total_price
-
-        self.order.total_price = order_total_price
-        self.order.save(force_update=True)
-
-
         super(ProductInOrder, self).save(*args, **kwargs)
 
-        
 
+def product_in_order_post_save(sender, instance, created, **kwargs):
+    order = instance.order
+    all_products_in_order = ProductInOrder.objects.filter(order=order, is_active=True)
+
+    order_total_price = 0
+    for item in all_products_in_order:
+        order_total_price += item.total_price
+
+    instance.order.total_price = order_total_price
+    instance.order.save(force_update=True)
+
+post_save.connect(product_in_order_post_save, sender=ProductInOrder)
