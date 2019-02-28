@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from .forms import SubscriberForm
-
+from products.models import Product
 
 def landing(request):
     name = "Viko"
@@ -19,5 +19,5 @@ def landing(request):
     return render(request, 'landing/landing.html', locals())
 
 def home(request):
-
+    products = Product.objects.filter(is_active=True)
     return render(request, 'landing/home.html', locals())
