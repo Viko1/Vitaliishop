@@ -22,6 +22,7 @@ class ProductImage(models.Model):
 
     product = models.ForeignKey(Product, blank=True, null=True, default=None, on_delete=models.CASCADE)
     image = models.ImageField(upload_to='static/media/products_images/')
+    is_main = models.BooleanField(default=False)
     is_active = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True, auto_now=False)
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
@@ -32,3 +33,4 @@ class ProductImage(models.Model):
     class Meta:
         verbose_name = 'photo'
         verbose_name_plural = 'photos'
+

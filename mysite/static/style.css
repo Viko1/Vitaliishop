@@ -5,11 +5,17 @@ html, body{
     background-color: #edeef0;
 }
 
+.navbar{
+    margin-top: 0;
+}
+
+
 .section-top{
     margin: 20px;
 }
+
 .product-item{
-    height: 200px;
+    height: 360px;
     background-color: white;
     border: 1px solid lightgray;
     position: relative;
@@ -17,6 +23,16 @@ html, body{
     text-align: center;
 }
 
-.add-to-cart-btn{
+.add-to-card-btn{
+    position: absolute;
+    bottom: 15px;
+    left: 83px;
+}
 
+.section{
+    padding: 50px 0;
+}
+
+.section h1{
+    margin-bottom: 40px;
 }
