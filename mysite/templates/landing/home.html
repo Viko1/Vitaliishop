@@ -19,64 +19,35 @@
                     </h1>
 
                  {% for product_image in products_images %}
-                    <div class="col-lg-3">
-                        <div class="product-item">
-                            <div>
-                                <img src="{{ product_image.image.url }}" class="img-responsive">
-                            </div>
-                            <h4>{{ product_image.product.name }}</h4>
-                            <p>
-                               {{ product_image.product.description|truncatechars_html:70 }}
-                            </p>
-                            <div>
-                                {{ product_image.product.price }} Zł
-                            </div>
-                            <div class="add-to-card-btn">
-                                <button class="btn btn-success">
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
+                     {% include 'landing/product_item.html' %}
                  {% endfor %}
 
              </div>
         </div>
     </div>
 
+    <div class="section section-delivery">
+        <div>
+            <h3>
+                Free Shipping!
+            </h3>
+        </div>
+    </div>
+
 
     {% comment %}@@@@ section 2 @@@@{% endcomment %}
 
-    <div class="section section2">
+    <div class="section section2 phones-container">
         <div class="container">
              <div class="row">
                 <div class="col-lg-12">
                     <h1 class="text-center">
-                        New arrivals
+                        Mobile Phones
                     </h1>
 
-                 {% for product_image in products_images %}
-                    <div class="col-lg-3">
-                        <div class="product-item">
-                            <div>
-                                <img src="{{ product_image.image.url }}" class="img-responsive">
-                            </div>
-                            <h4>{{ product_image.product.name }}</h4>
-                            <p>
-                               {{ product_image.product.description|truncatechars_html:70 }}
-                            </p>
-                            <div>
-                                {{ product_image.product.price }} Zł
-                            </div>
-                            <div class="add-to-card-btn">
-                                <button class="btn btn-success">
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
+                 {% for product_image in products_images_phones %}
+                     {% include 'landing/product_item.html' %}
 
-                    </div>
                  {% endfor %}
 
              </div>
@@ -89,35 +60,17 @@
 
 
     </div>
-    <div class="section section3">
+    <div class="section section3 laptops-container">
         <div class="container">
              <div class="row">
                 <div class="col-lg-12">
                     <h1 class="text-center">
-                        New arrivals
+                        Laptops
                     </h1>
 
-                 {% for product_image in products_images %}
-                    <div class="col-lg-3">
-                        <div class="product-item">
-                            <div>
-                                <img src="{{ product_image.image.url }}" class="img-responsive">
-                            </div>
-                            <h4>{{ product_image.product.name }}</h4>
-                            <p>
-                               {{ product_image.product.description|truncatechars_html:70 }}
-                            </p>
-                            <div>
-                                {{ product_image.product.price }} Zł
-                            </div>
-                            <div class="add-to-card-btn">
-                                <button class="btn btn-success">
-                                    Add to cart
-                                </button>
-                            </div>
-                        </div>
+                 {% for product_image in products_images_laptops %}
+                     {% include 'landing/product_item.html' %}
 
-                    </div>
                  {% endfor %}
 
              </div>
