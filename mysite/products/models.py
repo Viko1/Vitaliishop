@@ -43,7 +43,7 @@ class ProductImage(models.Model):
     updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
     def __str__(self):
-        return "Order %s" % self.id
+        return "Photo %s" % self.id
 
     class Meta:
         verbose_name = 'photo'

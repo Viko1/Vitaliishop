@@ -8,13 +8,25 @@ html, body{
 .navbar{
     margin-bottom: -20px;
     background-color: #1ab536;
+    color: white;
 
+}
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 180px; /*must be same height as the footer */
+}
+
+.wrapper{
+    min-height: 100%;
 }
 
 .footer{
-    margin-bottom: -100px;
+    position: relative;
+    margin-top: -180px; /*negatibe value of footer height*/
+    height: 180px;
+    clear: both;
     background-color: white;
-    height: 200px;
+
 }
 
 .section-top{
