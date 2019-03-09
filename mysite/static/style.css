@@ -6,8 +6,8 @@ html, body{
 }
 
 .navbar{
-    margin-bottom: -20px;
-    background-color: #1ab536;
+    margin-bottom: 0px;
+    background-color: #eeffea;
     color: white;
 
 }
@@ -30,7 +30,8 @@ html, body{
 }
 
 .section-top{
-    margin: 20px;
+    margin: 0px;
+    padding: -20px;
 }
 
 .product-item{
@@ -71,4 +72,13 @@ html, body{
     background-color: darkgreen;
     text-align: center;
     color: white;
+}
+
+.product-description-tabs{
+    padding: 10px;
+}
+
+.product-image-item{
+    padding: 5px;
+    margin-bottom: 5px;
 }
