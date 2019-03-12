@@ -82,3 +82,17 @@ html, body{
     padding: 5px;
     margin-bottom: 5px;
 }
+
+.navbar-top{
+    min-height: 10px;
+    height: 20px;
+    background-color: green;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-main{
+    background-color: #00a80a;
+    border: none;
+    border-radius: 0;
+}

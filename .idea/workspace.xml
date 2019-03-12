@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e054bf5-c964-4001-bd2b-6fbb04180c5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/15343773655310288-jpg-gallery.big-iext53637436.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/MKQ92_image_01_nUi5CDs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/MKQ92_image_02_zPKWLzH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/apple-macbook-air-i5-5350u-13-3-8-gb-ram-128-gb-ssd-macos-s_YkZoWVq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/apple-macbook-air-i5-5350u-13-3-8-gb-ram-128-gb-ssd-macos-s_gzcofU4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/apple_mree2ll_a_13_3_macbook_air_with_1441820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/iphone-xs_max-silver-image_01_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/iphone-xs_max-silver-image_02_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/iphone_7_gold-image_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/iphone_7_gold-image_02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/x2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/static/media/products_images/x_1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/MyProject2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyProject2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/templates/products/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/templates/products/product.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="748">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/static/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -65,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/products/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="289">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#630#676#0" expanded="true" />
@@ -77,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="323">
               <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
@@ -89,38 +85,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/products/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-86">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/orders/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+            <state relative-caret-position="303">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/landing/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/templates/landing/landing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -128,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/landing/product_item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="493">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -142,6 +144,7 @@
         <option value="Python Script" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -186,19 +189,20 @@
         <option value="$PROJECT_DIR$/mysite/templates/footer.html" />
         <option value="$PROJECT_DIR$/mysite/static/landing.css" />
         <option value="$PROJECT_DIR$/mysite/templates/landing/landing.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/navbar.html" />
         <option value="$PROJECT_DIR$/mysite/products/admin.py" />
         <option value="$PROJECT_DIR$/mysite/landing/views.py" />
         <option value="$PROJECT_DIR$/mysite/templates/landing/home.html" />
         <option value="$PROJECT_DIR$/mysite/products/views.py" />
-        <option value="$PROJECT_DIR$/mysite/templates/base.html" />
-        <option value="$PROJECT_DIR$/mysite/static/style.css" />
         <option value="$PROJECT_DIR$/mysite/products/urls.py" />
         <option value="$PROJECT_DIR$/mysite/templates/landing/product_item.html" />
-        <option value="$PROJECT_DIR$/mysite/templates/products/product.html" />
         <option value="$PROJECT_DIR$/mysite/mysite/settings.py" />
         <option value="$PROJECT_DIR$/mysite/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/products/models.py" />
+        <option value="$PROJECT_DIR$/mysite/templates/base.html" />
+        <option value="$PROJECT_DIR$/mysite/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/mysite/templates/products/product.html" />
+        <option value="$PROJECT_DIR$/mysite/static/style.css" />
+        <option value="$PROJECT_DIR$/mysite/templates/navbar.html" />
       </list>
     </option>
   </component>
@@ -208,11 +212,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="285" />
-    <option name="y" value="82" />
-    <option name="width" value="1298" />
-    <option name="height" value="548" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="width" value="1163" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,19 +250,34 @@
               <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -377,7 +395,11 @@
       <workItem from="1551727750049" duration="9638000" />
       <workItem from="1551816894421" duration="6526000" />
       <workItem from="1551900816836" duration="7785000" />
-      <workItem from="1551989778834" duration="5994000" />
+      <workItem from="1551989778834" duration="6029000" />
+      <workItem from="1552135224525" duration="6026000" />
+      <workItem from="1552251614409" duration="3263000" />
+      <workItem from="1552337487916" duration="3923000" />
+      <workItem from="1552423758403" duration="3641000" />
     </task>
     <task id="LOCAL-00001" summary="Add models of our shop">
       <created>1550608783498</created>
@@ -435,11 +457,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551823424726</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tworzenie strony produktu v1">
+      <created>1551998237172</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551998237172</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tworzenie strony produktu v2">
+      <created>1552141432730</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552141432730</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130356000" />
+    <option name="totallyTimeSpent" value="147244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,9 +487,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="33" y="0" width="1163" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24054463" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30825022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -464,7 +501,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.2672234" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.33387887" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924356" visible="true" weight="0.32977098" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3207856" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.33060557" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -538,7 +575,9 @@
     <MESSAGE value="Add models of our shop 3" />
     <MESSAGE value="tworzenie rozdziałów laptop i phones, dodawanie zniżki, oraz kategorii" />
     <MESSAGE value="tworzenie strony produktu" />
-    <option name="LAST_COMMIT_MESSAGE" value="tworzenie strony produktu" />
+    <MESSAGE value="tworzenie strony produktu v1" />
+    <MESSAGE value="tworzenie strony produktu v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tworzenie strony produktu v2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,13 +596,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="115" column="6" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3176">
@@ -685,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/orders/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -716,29 +741,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/static/media/products_images/apple-macbook-air-i5-5350u-13-3-8-gb-ram-128-gb-ssd-macos-s_YkZoWVq.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -779,30 +783,6 @@
     <entry file="file://$PROJECT_DIR$/mysite/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/products/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/orders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/products/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -823,16 +803,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/product_item.html">
+    <entry file="file://$PROJECT_DIR$/mysite/orders/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        <state relative-caret-position="1309">
+          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/products/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="289">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#630#676#0" expanded="true" />
@@ -840,16 +844,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="129" column="54" selection-start-line="129" selection-start-column="54" selection-end-line="129" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="323">
           <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
@@ -857,10 +854,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/products/models.py">
+    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/landing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/landing/product_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/products/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="97" column="1" lean-forward="true" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
         </state>
       </provider>
     </entry>
