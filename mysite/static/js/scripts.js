@@ -12,5 +12,18 @@ $(document).ready(function(){
         var product_price = submit_btn.data("price");
         console.log(product_id);
         console.log(product_name);
-    })
+    });
+
+    $('.basket-container').on('click', function(e){
+        e.preventDefault();
+        $('.basket-items').removeClass('hidden');
+    });
+
+     $('.basket-container').mouseover(function(){
+         $('.basket-items').removeClass('hidden');
+     });
+
+     $('.basket-container').mouseout(function(){
+         $('.basket-items').addClass('hidden');
+     })
 });

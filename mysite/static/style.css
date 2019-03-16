@@ -6,7 +6,7 @@ html, body{
 }
 
 .navbar{
-    margin-bottom: 0px;
+    margin-bottom: 0;
     background-color: #eeffea;
     color: white;
 
@@ -30,7 +30,7 @@ html, body{
 }
 
 .section-top{
-    margin: 0px;
+    margin: 0;
     padding: -20px;
 }
 
@@ -95,4 +95,19 @@ html, body{
     background-color: #00a80a;
     border: none;
     border-radius: 0;
+}
+
+.basket-container{
+    position: relative;
+    width: 200px;
+    padding: 15px 10px;
+}
+
+.basket-items{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #37ff59;
+    z-index: 10;
+    padding: 10px;
 }
