@@ -12,18 +12,34 @@ $(document).ready(function(){
         var product_price = submit_btn.data("price");
         console.log(product_id);
         console.log(product_name);
+
+        $('.basket-items ul').append('<li>'+product_name+', ' + nmb + 'szt. ' + 'po ' + product_price + 'zł  ' +
+            '<a class="delete-item" href="">x</a>'+
+            '</li>');
+
+
     });
+
+
+    function showingBasket(){
+        $('.basket-items').removeClass('hidden');
+    }
 
     $('.basket-container').on('click', function(e){
         e.preventDefault();
-        $('.basket-items').removeClass('hidden');
+        showingBasket();
     });
 
      $('.basket-container').mouseover(function(){
-         $('.basket-items').removeClass('hidden');
+         showingBasket();
      });
 
-     $('.basket-container').mouseout(function(){
-         $('.basket-items').addClass('hidden');
+     /*$('.basket-container').mouseout(function(){
+         showingBasket();
+     });
+*/
+     $(document).on('click', '.delete-item', function (e){
+         e.preventDefault();
+         $(this).closest('li').remove();
      })
 });
