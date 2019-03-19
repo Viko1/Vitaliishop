@@ -17,6 +17,27 @@ $(document).ready(function(){
             '<a class="delete-item" href="">x</a>'+
             '</li>');
 
+        var data = {};
+        data.product_id = product_id;
+        data.nmb = nmb;
+         var csrf_token = $('#form_buying_product [name="csrfmiddlewaretoken"]').val();
+         data["csrfmiddlewaretoken"] = csrf_token;
+        var url = form.attr("action");
+
+        $.ajax({
+            url: url,
+            type: 'POST',
+            data: data,
+            cache: true,
+            success: function (data) {
+                console.log("Ok");
+            },
+            error: function () {
+                console.log("error")
+                
+            }
+        })
+
 
     });
 
