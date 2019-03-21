@@ -34,10 +34,18 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
                 <div class="basket-container">
-                    <a href="">Cart<span id="basket_total_amount"></span><span id="basket_total_nmb"></span></a>
+                    <a href="">Cart<span id="basket_total_amount"></span><span id="basket_total_nmb">
+                        {% if products_total_nmb %}
+                            ({{ products_total_nmb }})
+                        {% else %}
+                            (0)
+                        {% endif %}
+                    </span></a>
                     <div class="basket-items hidden">
                         <ul class="">
-                            <li> test123</li>
+                            {% for product_in_basket in products_in_basket %}
+                                <li>{{ product_in_basket.product.name }} {{ product_in_basket.nmb }} szt. po {{ product_in_basket.price_per_item }} Zł</li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
