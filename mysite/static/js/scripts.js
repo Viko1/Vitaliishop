@@ -1,26 +1,15 @@
 $(document).ready(function(){
     var form = $('#form_buying_product');
     console.log(form);
-    form.on('submit', function(e){
-        e.preventDefault();
-        console.log('123');
-        var nmb = $('#number').val();
-        console.log(nmb);
-        var submit_btn = $('#submit_btn');
-        var product_id = submit_btn.data("product_id");
-        var product_name = submit_btn.data("name");
-        var product_price = submit_btn.data("price");
-        console.log(product_id);
-        console.log(product_name);
 
-
-
+    function basket_updating(product_id, nmb, is_delete){
         var data = {};
         data.product_id = product_id;
         data.nmb = nmb;
          var csrf_token = $('#form_buying_product [name="csrfmiddlewaretoken"]').val();
          data["csrfmiddlewaretoken"] = csrf_token;
-        var url = form.attr("action");
+
+         var url = form.attr("action");
 
         $.ajax({
             url: url,
@@ -36,7 +25,7 @@ $(document).ready(function(){
                     $('.basket-items ul').html("");
                     $.each(data.products, function (k, v) {
                         $('.basket-items ul').append('<li>'+ v.name+ ', ' + v.nmb + 'szt. ' + 'po ' + v.price_per_item + 'zł  ' +
-                            // '<a class="delete-item" href="">x</a>'+
+                            '<a class="delete-item" href="" data-product_id="'+v.id+'">x</a>'+
                             '</li>');
                     });
                 }
@@ -47,7 +36,22 @@ $(document).ready(function(){
 
             }
         })
+    }
 
+    form.on('submit', function(e){
+        e.preventDefault();
+        console.log('123');
+        var nmb = $('#number').val();
+        console.log(nmb);
+        var submit_btn = $('#submit_btn');
+        var product_id = submit_btn.data("product_id");
+        var product_name = submit_btn.data("name");
+        var product_price = submit_btn.data("price");
+        console.log(product_id);
+        console.log(product_name);
+
+        basket_updating(product_id, nmb,is_delete=false)
+            
 
     });
 
@@ -71,6 +75,8 @@ $(document).ready(function(){
 */
      $(document).on('click', '.delete-item', function (e){
          e.preventDefault();
-         $(this).closest('li').remove();
+         product_id = $(this).data_product_id;
+         nmb = none;
+         basket_updating(product_id, nmb,is_delete=false)
      })
 });
