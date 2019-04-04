@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/mysite/static/media/products_images" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mysite/static/media" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mysite/static/js" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mysite/templates/orders" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
@@ -44,6 +45,7 @@
         <option value="$MODULE_DIR$/mysite/static/img" />
         <option value="$MODULE_DIR$/mysite/static/bootstrap" />
         <option value="$MODULE_DIR$/mysite/templates/products" />
+        <option value="$MODULE_DIR$/mysite/templates/orders" />
       </list>
     </option>
   </component>
