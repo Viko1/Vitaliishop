@@ -6,7 +6,7 @@
 {% block content %}
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-8 col-lg-offset-2">
                 <h3 class="text-center">Products in cart</h3>
                 <h5 class="text-center">Total costs: {{ reqest.session.basket.total_amount }} zł </h5>
                         {{ request.session.basket.products }}
@@ -28,20 +28,36 @@
                                         {{ product_in_basket.product.name }}
                                     </td>
                                     <td>
-                                        <input value="{{ product_in_basket.nmb }}" type="number">
+                                        <input value="{{ product_in_basket.nmb }}" type="number"
+                                               class="product-ib-basket-nmb">
                                     </td>
                                     <td>
-                                        {{ product_in_basket.price_per_item }}
+                                        <span class="product-price">
+                                            {{ product_in_basket.price_per_item }}
+                                        </span>
+
                                     </td>
                                     <td>
-                                        {{ product_in_basket.total_price}}
+                                        <span class="total-product-in-basket-amount">
+                                            {{ product_in_basket.total_price}}
+                                        </span>
                                     </td>
                                  </tr>
 
 
                             {% endfor %}
+
                         </tbody>
                     </table>
+                        <div class="text-right">
+                            <b>Order Total</b> <span id="total_order_amount">54</span>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Order</button>
+                            </div>
+                        </div>
                 </form>
 
 
