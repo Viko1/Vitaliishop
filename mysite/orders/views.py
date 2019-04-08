@@ -1,6 +1,7 @@
 from django.http import JsonResponse
 from .models import ProductInBasket
 from django.shortcuts import render
+from .forms import CheckoutContactForm
 
 def basket_adding(request):
     return_dict = dict()
@@ -41,4 +42,11 @@ def basket_adding(request):
 def checkout(request):
     session_key = request.session.session_key
     products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True)
+    form = CheckoutContactForm(request.POST or None)
+    if request.POST:
+        print(request.POST)
+        if form.is_valid():
+            print("yes")
+        else:
+            print("no")
     return render(request, 'orders/checkout.html', locals())
