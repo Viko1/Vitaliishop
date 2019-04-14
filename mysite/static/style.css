@@ -113,5 +113,10 @@ html, body{
 }
 
 .form-error{
-    text-color: red;
+    color: red;
+}
+
+.form-group{
+    margin-top: 20px;
+
 }
