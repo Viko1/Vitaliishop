@@ -4,12 +4,49 @@
 
 {% block content %}
 
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    </head>
+
     {% comment %}@@@@ section 1 @@@@{% endcomment %}
+    <div id="myCarousel" class="carousel">
+        <ol class="carousel-indicators">
+
+            <li data-target = "#myCarousel" data-slide-to = "0" class="active"></li>
+            <li data-target = "#myCarousel" data-slide-to = "1"></li>
+            <li data-target = "#myCarousel" data-slide-to = "2"></li>
+
+        </ol>
+
+    <div class="carousel-inner">
+
+        <div class="item active">
+            <img src="static/img/background-black-clouds-696680-2.jpg" alt="Background" class="img-responsive">
+        </div>
+
+        <div class="item">
+            <img src="static/img/background-2.jpg" alt="Background2" class="img-responsive">
+        </div>
+
+        <div class="item">
+            <img src="static/img/background-3.jpg" alt="Background3" class="img-responsive">
+        </div>
 
 
-    <div class="section-top">
-        <img src="{% static  'img/background-black-clouds-696680-2.jpg' %}" alt="Background" class="img-responsive">
     </div>
+        <a class="carousel-control left" href="#myCarousel" data-slide = "prev">
+            <span class="icon-prev"></span>
+        </a>
+
+        <a class="carousel-control right" href="#myCarousel" data-slide = "next">
+            <span class="icon-next"></span>
+        </a>
+
+    </div>
+
+{#    <div class="section-top">#}
+{#        <img src="{% static  'img/background-black-clouds-696680-2.jpg' %}" alt="Background" class="img-responsive">#}
+{#    </div>#}
     <div class="section section1">
         <div class="container">
              <div class="row">
@@ -29,7 +66,19 @@
     <div class="section section-delivery">
         <div>
             <h3>
+
                 Free Shipping!
+{#                <div class="container">#}
+{#                     <div class="row">#}
+{#                        <div class="col-lg-12">#}
+{##}
+{#                         {% for product_image in products_images_phones %}#}
+{#                             {% include 'landing/product_item.html' %}#}
+{##}
+{#                         {% endfor %}#}
+{##}
+{#                     </div>#}
+{#                </div>#}
             </h3>
         </div>
     </div>
@@ -76,7 +125,8 @@
              </div>
         </div>
     </div>
-{% endblock content %}
 
+
+{% endblock content %}
 
 

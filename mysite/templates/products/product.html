@@ -1,15 +1,15 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block content %}
+
+
     <div class="container">
+{% block content %}
         <div class="row">
             <div class="col-lg-6">
-                {% for image_item in product.productimage_set.all %}
-                    <div class="product-image-item">
-                        <img src="{{ image_item.image.url }}" alt="product_img" class="image-responsive">
-                    </div>
-                {% endfor %}
+                   <div>
+                        {% include "slider.html" %}
+                   </div>
             </div>
             <div class="col-lg-6">
                 <h1 class="text-center">
