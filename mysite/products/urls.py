@@ -19,7 +19,11 @@ from products import views
 from django.conf.urls import url
 
 
+
+
 urlpatterns = [
     #path('landing/', views.landing, name='landing'),
     path('product/<int:product_id>/', views.product, name='product'),
+
+
 ]

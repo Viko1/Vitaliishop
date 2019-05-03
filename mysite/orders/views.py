@@ -5,6 +5,7 @@ from .forms import CheckoutContactForm
 from django.contrib.auth.models import User
 
 
+
 def basket_adding(request):
     return_dict = dict()
     session_key = request.session.session_key

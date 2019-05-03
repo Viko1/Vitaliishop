@@ -63,18 +63,18 @@ $(document).ready(function(){
     function showingBasket(){
         $('.basket-items').removeClass('hidden');
     }
-    //$('.basket-container').on('click', function(e){
-    //    e.preventDefault();
-    //    showingBasket();
-    //});
+    $('.basket-container').on('click', function(e){
+        e.preventDefault();
+        showingBasket();
+    });
 
      $('.basket-container').mouseover(function(){
          showingBasket();
      });
 
-     //$('.basket-container').mouseout(function(){
-     //    showingBasket();
-     //});
+     $('.basket-container').mouseout(function(){
+         showingBasket();
+     });
 
      $(document).on('click', '.delete-item', function(e){
          e.preventDefault();

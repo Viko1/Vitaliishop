@@ -22,12 +22,14 @@ html, body{
 
 .footer{
     position: relative;
-    margin-top: -180px; /*negatibe value of footer height*/
-    height: 180px;
+    margin-bottom: -180px; /*negatibe value of footer height*/
+    height:  120px;
     clear: both;
-    background-color: white;
-
+    background-color: #e9eaec;
 }
+
+
+
 
 .section-top{
     margin: 0;
@@ -140,4 +142,39 @@ html, body{
 
 .navbar-default .navbar-nav>li>a {
     color: #000;
+}
+.wrapper-content {
+    overflow: hidden;
+
+
+}
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+    font-size: 48px;
+}
+
+.h6, h6 {
+    font-size: 22px;
+    text-align: center;
 }
