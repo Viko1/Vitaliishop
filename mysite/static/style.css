@@ -89,17 +89,19 @@ html, body{
 .navbar-top{
     min-height: 10px;
     height: 20px;
-    background-color: #1cd485;
+    background-color: #50bb8e;
     border: none;
     border-radius: 0;
     color: black;
+    font-family: "Arial Black";
 }
 
 .navbar-main{
     background-color: #4fbe92;
     border: none;
     border-radius: 0;
-    color: red;
+    color: #1c0000;
+
 }
 
 .basket-container{
@@ -112,13 +114,13 @@ html, body{
     position: absolute;
     top: 50px;
     width: 100%;
-    background-color: #37ff59;
+    background-color: #50a77b;
     z-index: 10;
     padding: 10px;
 }
 
 .form-error{
-    color: red;
+    color: #8d0f03;
 }
 
 .form-group{
@@ -138,6 +140,7 @@ html, body{
 
 .navbar-default .navbar-brand {
     color: #000;
+    font-family: "Arial Black";
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -177,4 +180,11 @@ html, body{
 .h6, h6 {
     font-size: 22px;
     text-align: center;
+}
+
+a {
+    color: #020202;
+    text-decoration: none;
+    font-family: "Arial Black";
+
 }

@@ -86,7 +86,7 @@
             <div>
 
                 {% for image_item in product.productimage_set.filter %}
-                        <img src="{{ image_item.image.url }}" width="640" height="320">
+                        <img src="{{ image_item.image.url }}" >
                 {% endfor %}
 
             </div>
