@@ -13,3 +13,10 @@ def product(request, product_id):
 
 
     return render(request, 'products/product.html', locals())
+
+# def productImage_list(request):
+#     queryset =  ProductImage.objects.all()
+#     context = {
+#         "photos": queryset
+#     }
+#     return render(request, 'products/product.html', context)
