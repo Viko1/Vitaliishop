@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e054bf5-c964-4001-bd2b-6fbb04180c5c" name="Default Changelist" comment="styling strony 1">
+    <list default="true" id="7e054bf5-c964-4001-bd2b-6fbb04180c5c" name="Default Changelist" comment="Finish 3">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/products/migrations/0007_auto_20190520_2237.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/landing/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="2465">
               <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
@@ -47,8 +49,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="142" column="1" lean-forward="true" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#22#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -92,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="714">
               <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
@@ -193,6 +207,7 @@
         <option value="$PROJECT_DIR$/mysite/templates/index.html" />
         <option value="$PROJECT_DIR$/mysite/static/js/scripts.js" />
         <option value="$PROJECT_DIR$/mysite/templates/landing/home.html" />
+        <option value="$PROJECT_DIR$/mysite/manage.py" />
       </list>
     </option>
   </component>
@@ -203,8 +218,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="460" />
-    <option name="y" value="46" />
+    <option name="x" value="332" />
+    <option name="y" value="-15" />
     <option name="width" value="800" />
     <option name="height" value="698" />
   </component>
@@ -235,18 +250,6 @@
             <path>
               <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,19 +314,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/mysite/templates/products/product.html" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\pycharm project\MyProject2\mysite" />
+      <recent name="C:\pycharm project\MyProject2\mysite\static" />
+      <recent name="C:\pycharm project\MyProject2\mysite\templates" />
+      <recent name="C:\pycharm project\MyProject2\mysite\static\media" />
+      <recent name="C:\pycharm project\MyProject2\mysite\static\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\pycharm project\MyProject2\mysite\static\media" />
       <recent name="C:\pycharm project\MyProject2\mysite\static\img" />
       <recent name="C:\pycharm project\MyProject2\mysite\templates" />
       <recent name="C:\pycharm project\MyProject2\mysite\templates\landing" />
       <recent name="C:\pycharm project\MyProject2\mysite\products" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\pycharm project\MyProject2\mysite\static" />
-      <recent name="C:\pycharm project\MyProject2\mysite\templates" />
-      <recent name="C:\pycharm project\MyProject2\mysite\static\media" />
-      <recent name="C:\pycharm project\MyProject2\mysite\static\img" />
-      <recent name="C:\pycharm project\MyProject2\mysite\static\bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,7 +456,8 @@
       <workItem from="1557668094739" duration="7632000" />
       <workItem from="1557774888238" duration="1605000" />
       <workItem from="1557950231229" duration="598000" />
-      <workItem from="1558295289647" duration="944000" />
+      <workItem from="1558295289647" duration="2680000" />
+      <workItem from="1558383654618" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="Add models of our shop">
       <created>1550608783498</created>
@@ -630,11 +634,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557436242382</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Finish 2">
+      <created>1558296481517</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1558296481517</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297217000" />
+    <option name="totallyTimeSpent" value="300499000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -646,10 +657,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3260212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33131617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -660,7 +671,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32569557" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.2672234" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" visible="true" weight="0.049099836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49848714" visible="true" weight="0.3584288" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015129" side_tool="true" weight="0.12438625" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.33060557" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -669,7 +680,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.04709576" />
+      <window_info anchor="right" id="Database" order="3" weight="0.38880485" />
       <window_info anchor="right" id="SciView" order="4" weight="0.32967034" />
     </layout>
     <layout-to-restore>
@@ -751,7 +762,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Add models of our shop" />
     <MESSAGE value="Add models of our shop2" />
     <MESSAGE value="Add models of our shop 2" />
     <MESSAGE value="Admin panel for our modules" />
@@ -772,10 +782,12 @@
     <MESSAGE value="tworzenie checkout page (strona koszyku) v2.1" />
     <MESSAGE value="tworzenie checkout page (strona koszyku) v2.2" />
     <MESSAGE value="styling strony" />
-    <MESSAGE value="styling strony 1" />
     <MESSAGE value="styling strony 3" />
     <MESSAGE value="styling strony 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="styling strony 2" />
+    <MESSAGE value="styling strony 1" />
+    <MESSAGE value="Finish 2" />
+    <MESSAGE value="Finish 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -790,13 +802,25 @@
           <line>7</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysite/manage.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysite/manage.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mysite/manage.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pycharm project/Mysite/MyProject/News/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycharm project/Mysite/MyProject/News/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1058,8 +1082,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/landing/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="2465">
           <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="35" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1084,6 +1115,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/static/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2074">
@@ -1098,24 +1143,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/mysite/settings.py">
+    <entry file="file://$PROJECT_DIR$/mysite/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="142" column="1" lean-forward="true" selection-start-line="142" selection-start-column="1" selection-end-line="142" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#22#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
